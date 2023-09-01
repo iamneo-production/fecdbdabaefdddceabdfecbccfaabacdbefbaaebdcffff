@@ -1,4 +1,4 @@
-package test.java.ai.iamneo.testing.Testing_Selenium_TestNg;
+package ai.iamneo.testing.Testing_Selenium_TestNg;
 import org.testng.annotations.Test;
 import java.net.URL;
 import java.util.List;
@@ -11,9 +11,8 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 
-public class AppTest {
-	
-    WebDriver driver = null;
+public class AppTest1 {
+	WebDriver driver = null;
 	String url="https://flipkart.com";
 	ChromeOptions options = new ChromeOptions();
 	@BeforeTest
