@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
-
+public static void main(String[] args){
 public class AppTest {
 	WebDriver driver = null;
 	String url="https://flipkart.com";
@@ -41,4 +41,5 @@ public class AppTest {
 	public void afterTest() {
 		driver.quit();
 	}
+}
 }
