@@ -1,3 +1,7 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": [
+        "Testing-with-Selenium-TestNg/src/test/java",
+        "Testing-with-Selenium-TestNg/src/main/java/ai/iamneo/testing/Testing_Selenium_TestNg"
+    ]
 }
