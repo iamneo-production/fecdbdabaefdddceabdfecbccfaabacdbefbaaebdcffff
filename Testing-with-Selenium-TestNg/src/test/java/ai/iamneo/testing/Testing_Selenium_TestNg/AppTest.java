@@ -41,7 +41,4 @@ public class AppTest {
 	public void afterTest() {
 		driver.quit();
 	}
-	public static void main(String[] args) {
-	    
-	}
 }
