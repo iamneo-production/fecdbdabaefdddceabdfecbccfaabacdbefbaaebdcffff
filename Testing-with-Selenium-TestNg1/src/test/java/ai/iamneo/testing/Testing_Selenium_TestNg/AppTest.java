@@ -12,7 +12,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 
 public class AppTest {
-	public static void main(String[] args){
+	
     WebDriver driver = null;
 	String url="https://flipkart.com";
 	ChromeOptions options = new ChromeOptions();
@@ -42,5 +42,4 @@ public class AppTest {
 	public void afterTest() {
 		driver.quit();
 	}
-}
 }
