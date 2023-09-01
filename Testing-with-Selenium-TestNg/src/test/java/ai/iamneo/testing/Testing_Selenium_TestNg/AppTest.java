@@ -10,8 +10,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
-public static void main(String[] args){
+
 public class AppTest {
+	public static void main(String[] args)
 	WebDriver driver = null;
 	String url="https://flipkart.com";
 	ChromeOptions options = new ChromeOptions();
@@ -42,4 +43,4 @@ public class AppTest {
 		driver.quit();
 	}
 }
-}
+
