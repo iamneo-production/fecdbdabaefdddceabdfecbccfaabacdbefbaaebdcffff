@@ -5,7 +5,8 @@
     <classes>
       <class name="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest">
         <methods>
-          <include name="testEasy"/>
+          <include name="TestCase_1"/>
+          <include name="TestCase_2"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
