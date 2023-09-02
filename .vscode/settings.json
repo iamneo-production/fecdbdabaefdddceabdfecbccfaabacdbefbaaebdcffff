@@ -4,5 +4,6 @@
         "Testing-with-Selenium-TestNg/src/test/java",
         "Testing-with-Selenium-TestNg/src/main/java/ai/iamneo/testing/Testing_Selenium_TestNg"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
