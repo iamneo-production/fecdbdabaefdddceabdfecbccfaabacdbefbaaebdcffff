@@ -1,30 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.547 s <<< FAILURE! - in TestSuite
-ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_1  Time elapsed: 9.326 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=114.0.5735.133)
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'fecdbdabaefdddceabdfecbccfaabacdbefbaaebdcffff-0', ip: '10.80.0.11', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c386f2befb7cb1cb2991f268e03cc0c8, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.a5SPh2}, goog:chromeOptions: {debuggerAddress: localhost:35493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.0.11:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.0.11:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.0.11:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c386f2befb7cb1cb2991f268e03cc0c8
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_1(AppTest.java:28)
-
-ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_2  Time elapsed: 0.072 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=114.0.5735.133)
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'fecdbdabaefdddceabdfecbccfaabacdbefbaaebdcffff-0', ip: '10.80.0.11', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c386f2befb7cb1cb2991f268e03cc0c8, get {url=https://admin.pscollege841.exam.ly/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.a5SPh2}, goog:chromeOptions: {debuggerAddress: localhost:35493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.0.11:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.0.11:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.0.11:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c386f2befb7cb1cb2991f268e03cc0c8
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_2(AppTest.java:33)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.198 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_2  Time elapsed: 7.487 s  <<< FAILURE!
+java.lang.AssertionError: expected [PS College] but found [admin.pscollege841.exam.ly]
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.TestCase_2(AppTest.java:36)
 
