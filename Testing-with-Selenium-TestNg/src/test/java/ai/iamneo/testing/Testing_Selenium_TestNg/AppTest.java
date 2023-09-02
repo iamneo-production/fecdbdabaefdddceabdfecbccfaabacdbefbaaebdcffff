@@ -16,48 +16,28 @@ public class AppTest {
 	WebDriver driver = null;
 
 	@BeforeTest
-	public void beforeTest() throws Exception
-	 {
+	public void beforeTest() throws Exception {
+	//	System.setProperty("webdriver.chrome.driver", "/home/coder/project/workspace/Testing-with-Selenium-TestNg/chromedriver");
 		driver = new RemoteWebDriver(new URL("http://localhost:4444"), chromeOptions);
 	}
 
 	@Test
-//Checking the title of iamNeo (Home - iamneo)
-	public void iamNeo() throws InterruptedException 
-	{
-
-		 String title ="Get your title";
-		Assert.assertEquals(title, "");
+	public void TestCase_1() throws InterruptedException {
+		driver.get("https://admin.pscollege841.exam.ly/");
+		Thread.sleep(5000);  
+		String title = driver.getTitle();
+		Assert.assertEquals(title, "PS College");
 	}
 	@Test
-//Moving to FACEBOOK
-	public void nextPage() throws InterruptedException 
-	{
-		 	
-		 String title ="Get your title";
-		Assert.assertEquals(title, "");
-
+	public void TestCase_2() throws InterruptedException {
+		driver.get("https://admin.pscollege841.exam.ly/");
+		Thread.sleep(5000);  
+		String title = driver.getTitle();
+		Assert.assertEquals(title, "PS College");
 	}
-	@Test
-//Back to iamNeo
-	public void backPage() throws InterruptedException 
-	{
-		 String title ="Get your title";
-		Assert.assertEquals(title, "");
-
-	}
-	@Test
-//Current URL
-public void currentURL() throws InterruptedException 
-{
-		 String title ="Get your title";
-		Assert.assertEquals(title, "");
-
-}
 
 	@AfterTest
-	public void afterTest() 
-	{
+	public void afterTest() {
 		driver.quit();
 	}
 
